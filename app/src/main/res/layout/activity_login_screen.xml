@@ -10,37 +10,24 @@
     tools:context=".LoginScreen">
 
     <!-- Judul -->
-    <TextView
-        android:id="@+id/tv_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome"
-        android:textColor="@android:color/white"
-        android:textSize="26sp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="80dp"/>
 
     <!-- Username Field -->
     <EditText
         android:id="@+id/ET_userName"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:hint="Username"
+        android:background="@drawable/round_white_input"
         android:backgroundTint="#FFFFFF"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#E0E0E0"
         android:drawableStart="@drawable/ic_person"
         android:drawablePadding="10dp"
-        android:paddingStart="16dp"
+        android:hint="Username"
         android:inputType="textPersonName"
-        android:background="@drawable/round_white_input"
-        app:layout_constraintTop_toBottomOf="@id/tv_title"
-        app:layout_constraintStart_toStartOf="parent"
+        android:paddingStart="16dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#E0E0E0"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="270dp"/>
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="409dp" />
 
     <!-- Password Field -->
     <EditText
