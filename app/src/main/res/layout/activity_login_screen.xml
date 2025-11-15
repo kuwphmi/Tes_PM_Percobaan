@@ -9,8 +9,6 @@
     android:padding="24dp"
     tools:context=".LoginScreen">
 
-    <!-- Judul -->
-
     <!-- Username Field -->
     <EditText
         android:id="@+id/ET_userName"
@@ -23,11 +21,11 @@
         android:hint="Username"
         android:inputType="textPersonName"
         android:paddingStart="16dp"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#E0E0E0"
+        android:textColor="#000000"
+        android:textColorHint="#B71C1C"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="409dp" />
+        tools:layout_editor_absoluteY="360dp" />
 
     <!-- Password Field -->
     <EditText
@@ -36,8 +34,8 @@
         android:layout_height="50dp"
         android:hint="Password"
         android:inputType="textPassword"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#E0E0E0"
+        android:textColor="#000000"
+        android:textColorHint="#B71C1C"
         android:drawableStart="@drawable/ic_lock"
         android:drawablePadding="10dp"
         android:background="@drawable/round_white_input"
@@ -56,7 +54,7 @@
         android:textAllCaps="true"
         android:textColor="@android:color/white"
         android:textStyle="bold"
-        android:backgroundTint="#1E88E5"
+        android:backgroundTint="#B71C1C"
         app:cornerRadius="12dp"
         app:layout_constraintTop_toBottomOf="@id/ET_password"
         app:layout_constraintStart_toStartOf="parent"
@@ -71,6 +69,8 @@
         android:text="Forgot Password?"
         android:textColor="#FFEB3B"
         android:textSize="13sp"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="6dp"
         app:layout_constraintTop_toBottomOf="@id/btn_Login"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="12dp"/>
@@ -83,6 +83,9 @@
         android:text="Sign Up"
         android:textColor="#FFEB3B"
         android:textStyle="bold"
+        android:textSize="13sp"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="6dp"
         app:layout_constraintTop_toBottomOf="@id/btn_Login"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="12dp"/>
