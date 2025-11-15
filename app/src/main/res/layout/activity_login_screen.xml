@@ -23,9 +23,10 @@
         android:paddingStart="16dp"
         android:textColor="#000000"
         android:textColorHint="#B71C1C"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="350dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="360dp" />
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <!-- Password Field -->
     <EditText
