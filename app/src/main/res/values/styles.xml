@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="AppButton.LogoutStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">@color/dangerRed</item>
+        <item name="android:textColor">@color/dangerRed</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:background">?attr/colorSurface</item>
+    </style>
+
+</resources>
